@@ -31,6 +31,7 @@ Supported Input Sources:
 Install required packages with pip:
 
 ```shell
+curl -sS https://bootstrap.pypa.io/get-pip.py | python3.10
 pip install -r requirements.txt
 ```
 
