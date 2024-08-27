@@ -43,6 +43,8 @@ conda env create -f environment.yml
 
 # activate the conda environment
 conda activate yolov8_gui
+
+python3 -m pip install opencv-python opencv-python-headless
 ```
 
 ## Download weights
