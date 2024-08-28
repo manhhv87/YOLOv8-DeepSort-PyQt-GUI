@@ -28,6 +28,14 @@ Supported Input Sources:
 
 ## Install
 
+ubuntu20 apt-get update error:ModuleNotFoundError: No module named ‘apt_pkg‘
+```
+sudo apt-get remove --purge python-apt
+sudo apt-get install python-apt -f
+cd /usr/lib/python3/dist-packages/
+sudo cp apt_pkg.cpython-38-x86_64-linux-gnu.so apt_pkg.cpython-39-x86_64-linux-gnu.so
+```
+
 Install required packages with pip:
 
 ```shell
