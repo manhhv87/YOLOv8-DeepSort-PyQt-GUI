@@ -45,8 +45,9 @@ pip install -r requirements.txt
 
 or with conda:
 
+https://repo.anaconda.com/archive/ --> Anaconda3-2023.03-1-Linux-x86_64.sh
+
 ```shell
-Anaconda3-2023.03-1-Linux-x86_64.sh
 conda env create -f environment.yml
 
 # activate the conda environment
