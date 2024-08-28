@@ -28,6 +28,27 @@ Supported Input Sources:
 
 ## Install
 
+NVDIA Driver
+
+1. Remove all the nvidia packages.
+```
+sudo apt update
+sudo apt upgrade
+sudo apt autoremove
+sudo apt-get remove --purge nvidia*
+sudo apt-get remove --purge "nvidia*"
+```
+
+2. If you have added an Nvidia PPA to /etc/apt/sources.list remove that PPA by prefacing its line in sources.list with a # to comment it out. Run sudo apt update to refresh the list of available software.
+
+3. Reboot with ```sudo reboot```
+
+4. Run the following command to automatically select and install the Nvidia proprietary graphics driver and reboot.
+   
+```
+sudo ubuntu-drivers install && sudo reboot
+```
+
 ubuntu20 apt-get update error:ModuleNotFoundError: No module named ‘apt_pkg‘
 ```
 sudo apt-get remove --purge python-apt
