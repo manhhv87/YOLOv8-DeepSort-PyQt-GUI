@@ -28,19 +28,20 @@ Supported Input Sources:
 
 ## Install
 
+Clone source code
+```shell
+git clone https://github.com/manhhv87/YOLOv8-DeepSort-PyQt-GUI.git
+```
+
 Install required packages with pip:
 
 ```shell
-curl -sS https://bootstrap.pypa.io/get-pip.py | python3.10
 pip install -r requirements.txt
 ```
 
 or with conda:
 
 ```shell
-# clone source code
-git clone https://github.com/manhhv87/YOLOv8-DeepSort-PyQt-GUI.git
-
 # create new env
 conda env create -f environment.yml
 
