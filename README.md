@@ -48,9 +48,6 @@ conda env create -f environment.yml
 # activate the conda environment
 conda activate yolov8_gui
 
-# install required packages 
-pip install -r requirements.txt
-
 python3 -m pip install opencv-python opencv-python-headless
 ```
 
